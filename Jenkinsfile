@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('clone'){
       steps{
-        git banch:'main',url:https:'github.com/ritesh-goud/Calculator.git';
+        git branch:'main',url:https:github.com/ritesh-goud/Calculator.git';
       }
     }
     stage('compile'){
